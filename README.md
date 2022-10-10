@@ -1,5 +1,5 @@
-# An-R-package-for-of-High-Dimensional-Error-Prone-Data-Analysis
-This repository, which refers to an R package for high dimensional error prone data analysis, consists of the leukemia dataset, progamming code, and the analysis result by using the SIMEXBoost package in R CRAN.
+# An R package for high dimensional error prone data analysis
+This repository consists of the leukemia dataset, progamming code, and the analysis result by using the SIMEXBoost package in R CRAN.
 
 Two excel and one R code files are contained:
 1. leukemia_big.csv: The full leukemia dataset.
