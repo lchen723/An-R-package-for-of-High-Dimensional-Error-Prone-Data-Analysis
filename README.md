@@ -1,5 +1,5 @@
 # An R package for high dimensional error prone data analysis
-This repository consists of the leukemia dataset, progamming code, and the analysis result by using the SIMEXBoost package in R CRAN.
+This repository consists of the Company Bankruptcy Prediction dataset, progamming code, and the analysis result by using the SIMEXBoost package in R CRAN.
 
 Two excel and one R code files are contained:
 1. leukemia.RData: The full leukemia dataset prepared by R workspace. One can input 'leukemia' to print the full dataset
