@@ -12,9 +12,6 @@ set.seed(202270)
  data=ME_Data(X=X,beta=beta0,type="AFT-normal",sigmae=Sig)
  Y = data$response
  Xstar = data$ME_covariate
-
- ## The following argument type="normal" can be replaced by type="poisson" or 
- ## type="AFT-normal" if one would like to examine the Poisson or AFT model.
  
  naive = SIMEXBoost(Y,Xstar,zeta=c(0.9,1),B=2, type="AFT-normal",sigmae=diag(0,dim(X)[2]),
   Iter=100, Lambda=0, Extrapolation="linear")$BetaHatCorrect
