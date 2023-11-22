@@ -1,3 +1,5 @@
+library(SIMEXBoost)
+library(MASS)
 NAIVE = NULL; SIMEXL = NULL; SIMEXQ = NULL
 for(p in c(200,500)) {
 
