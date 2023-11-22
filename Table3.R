@@ -12,9 +12,6 @@ set.seed(202270)
  data=ME_Data(X=X,beta=beta0,type="poisson",sigmae=Sig)
  Y = data$response
  Xstar = data$ME_covariate
-
- ## The following argument type="normal" can be replaced by type="poisson" or 
- ## type="AFT-normal" if one would like to examine the Poisson or AFT model.
  
  naive = Boost_VSE(Y,Xstar,type="poisson",Iter=50)$BetaHat
 
